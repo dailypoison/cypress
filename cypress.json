@@ -2,5 +2,9 @@
 "video" :true,
 "videosFolder" : "cypress/videos",
 "screenshotsFolder": "cypress/screenshots",
-"reporter": "mochawesome"
+"reporter": "junit",
+"reporterOptions": {
+    "mochaFile": "results/my-test-output.xml",
+    "toConsole": true
+  }
 }
